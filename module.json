@@ -7,12 +7,7 @@
   "manifestPlusVersion": "1.0.0",
   "minimumCoreVersion": "0.8.9",
   "compatibleCoreVersion": "0.8.9",
-  "authors": [
-    {
-      "name": "zerodois",
-      "url": "https://github.com/zerodois"
-    }
-  ],
+  "author": "zerodois",
   "scripts": [
     "scripts/module.js"
   ],
