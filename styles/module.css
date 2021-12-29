@@ -1,0 +1,72 @@
+.todo-list {
+  gap: 1em;
+  margin-top: 0;
+  padding: 0;
+}
+
+.todo-list > li {
+  align-items: center;
+  gap: 0.5em;
+}
+
+.todo-list input[type="checkbox"] {
+  margin: 0;
+}
+
+.todo-list-icon-button {
+  align-self: center;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  line-height: normal;
+  padding: 0;
+}
+
+.todo-list-icon-button > i {
+  margin-right: 0;
+}
+
+.todo-list-icon-button:hover, .todo-list-icon-button:focus {
+  box-shadow: none;
+  text-shadow: 0 0 5px red;
+}
+
+#players.app, #hotbar.flexrow {
+  left: 120px;
+}
+
+#players.app {
+  bottom: 72px;
+  width: auto;
+  z-index: 71;
+}
+
+#players ol li.player.inline {
+  display: grid;
+  grid-template-columns: 15px max-content;
+}
+
+#players ol li.player.inline:not(:last-child) {
+  padding-right: 0;
+}
+
+#players #context-menu {
+  min-width: 182px;
+}
+
+#players #player-list {
+  display: flex;
+}
+
+.player-list-image {
+  margin: auto;
+}
+
+.player-name {
+  text-overflow: ellipsis;
+}
+
+.player-list-image.medium {
+  width: 105px;
+  grid-column: 1 / 3;
+}
