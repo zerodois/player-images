@@ -60,6 +60,8 @@
 
 .player-list-image {
   margin: auto;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
 .player-name {

@@ -82,7 +82,7 @@ Hooks.on('renderPlayerList', (playerList, html) => {
         src="${image}"
         title="${user.character.name}"
         class="player-list-image medium"
-        style="width: ${size}px"
+        style="width: ${size}px; height: ${size}px;"
       />`
     );
   });
